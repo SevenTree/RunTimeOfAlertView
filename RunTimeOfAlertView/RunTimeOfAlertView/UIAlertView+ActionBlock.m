@@ -10,8 +10,6 @@
 
 #import <objc/runtime.h>
 
-static void *KAlertViewActionKey = "alertViewKey";
-
 @implementation UIAlertView (ActionBlock)
 
 - (void)handleSureAction:(handleAction)handle {

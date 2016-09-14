@@ -22,17 +22,12 @@ Pod::Spec.new do |s|
   s.license      =  { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Tree" => "535756146@qq.com" }
   s.source       = { :git => "https://github.com/SevenTree/RunTimeOfAlertView.git", :tag => "1.0.0" }
-  s.source_files  = "RunTimeOfAlertView/*.{h,m}"
+  s.source_files  = "RunTimeOfAlertView/RunTimeOfAlertView/*.{h,m}"
   s.requires_arc = true
   s.homepage     = "https://github.com/SevenTree/RunTimeOfAlertView"
-
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "这是用RunTime简单实现多个alertView不用tag区分，直接用block实现回调方法的简单应用。very good。"
+
+
 
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
